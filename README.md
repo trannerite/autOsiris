@@ -19,3 +19,8 @@ This page may help you to find a way around that.
 ```
 https://github.com/LWSS/TracerHid
 ```
+
+# One-line installer
+```
+git clone https://github.com/trannerite/autOsiris.git && cd autOsiris && sh autOsiris.sh
+```
