@@ -1,3 +1,5 @@
+echo autOsiris by trannerite
+echo Osiris by danielkrupinski
 echo Downloading Osiris
 git clone https://github.com/danielkrupinski/Osiris.git
 cd Osiris
