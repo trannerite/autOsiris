@@ -8,6 +8,11 @@ After Osiris is done compiling inject it into CS2 with the following command
 sudo gdb -batch-silent -p $(pidof cs2) -ex "call (void*)dlopen(\"$PWD/libOsiris.so\", 2)"
 ```
 
+Or drag the .so file from build/Source/ into your main folder and run inject.sh
+```
+sh inject.sh
+```
+
 # Detection
 Osiris injection via GDB may be detected by VAC
 This page may help you to find a way around that.
