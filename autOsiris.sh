@@ -9,7 +9,7 @@ cmake -DCMAKE_BUILD_TYPE=Release -B build
 cmake --build build -j $(nproc --all)
 echo Osiris has been built
 echo Check the Osiris or autOsiris github pages to see how to inject
-echo WOULD YOU LIKE TO INSTALL OUR VAC BYPASS?
+echo WOULD YOU LIKE TO INSTALL OUR VAC BYPASS
 read -p "Press enter to install and enable sentinelguard ONLY IF YOU HAVE NOT ALREADY"
 ./bootstrap.sh
 sentinelguard --enable
